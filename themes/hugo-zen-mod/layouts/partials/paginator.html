@@ -1,0 +1,12 @@
+<nav class="entry-paginator">
+  {{ if .Paginator.HasPrev }}
+    <a class="prev" rel="prev" href="{{.Paginator.Prev.URL}}" ontouchstart="">
+      <i class="fa fa-angle-left" aria-hidden="true"></i> PREV
+    </a>
+  {{ end }}
+  {{ if .Paginator.HasNext }}
+    <a class="next" rel="next" href="{{.Paginator.Next.URL}}" ontouchstart="">
+      NEXT <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </a>
+  {{ end }}
+</nav>

@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+<main class="entry-tag-container">
+  <h3>TAGS</h3>
+  <ul>
+  {{ range $key, $value := .Data.Terms.ByCount }}
+  <li class="post-tag">
+    <a href="/tags/{{ $value.Name | urlize }}" class="post-link">
+    {{ $value.Name }}  -  ({{ $value.Count }})
+    </a>
+  </li>
+  {{ end }}
+  </ul>
+</main>
+
+{{ partial "footer.html" . }}

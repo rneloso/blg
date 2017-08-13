@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4183561980877187",
+    enable_page_level_ads: true
+  });
+</script>
+<meta charset="utf-8">
+{{ .Hugo.Generator }}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="short icon" href="/img/favicon.ico">
+<link rel="apple-touch-icon" href="/img/iphone.png">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+<title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header class="nav-menu" role="banner">
+		<div class="site-title">
+			<a href="/"><img src="/img/logo.png" alt="{{ .Site.Title }}" class="site-title-logo"></a>
+		</div>
+		<ul class="menu-link-list">
+			<li class="menu-link-list-item"><a href="/about/">About</a></li>
+			<li class="menu-link-list-item"><a href="/post/">Posts</a></li>
+			<li class="menu-link-list-item"><a href="/tags/">Tags</a></li>
+		</ul>
+	</header>

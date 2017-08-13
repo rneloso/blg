@@ -1,0 +1,16 @@
+languageCode: "jp"
+metaDataFormat: "yaml"
+title: "MLSBLG"
+baseURL: "https://blog.n0-fvtvr3.net"
+rssuri: "feed.xml"
+copyright: "2012 rnelo_so, all rights reserved."
+theme: "hugo-zen-mod"
+canonifyurls: true
+googleAnalytics: "UA-39084608-1"
+permalinks:
+    post: /:year/:month/:slug/
+
+taxonomies:
+    tag: "tags"
+
+params:

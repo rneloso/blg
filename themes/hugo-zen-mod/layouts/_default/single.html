@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+
+	<main class="post-container" role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">{{ .Title }}</h1>
+			<span class="entry-meta">
+				<time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">Published: {{ .Date.Format "2006-01-02" }}</time>
+				{{ with .Params.tags }}
+				<div class="tag"> Tags: {{ range . }} <a href="/tags/{{ . }}/">{{ . }}</a>{{ end }}</div>
+				{{ end }}
+			</span>
+			<div class="share-button">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-via="rnelo_so">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				<a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+			</div>
+			<section itemprop="entry-text">
+				{{ .Content }}
+			</section>
+		</article>
+	</main>
+
+  <nav class="entry-paginator">
+    {{ if .NextInSection }}
+      <a class="prev" rel="prev" href="{{.NextInSection.Permalink}}"><i class="fa fa-angle-left" aria-hidden="true"></i> {{.NextInSection.Title}}</a>
+    {{ end }}
+	{{ if .PrevInSection }}
+      <a class="next" rel="next" href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}} <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    {{ end }}
+  </nav>
+
+{{ partial "footer.html" . }}
