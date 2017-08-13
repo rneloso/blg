@@ -1,7 +1,7 @@
 languageCode: "jp"
 metaDataFormat: "yaml"
 title: "MLSBLG"
-baseURL: "https://blog.n0-fvtvr3.net"
+baseURL: "https://sheep-shearer-brian-85750.netlify.com/"
 rssuri: "feed.xml"
 copyright: "2012 rnelo_so, all rights reserved."
 theme: "hugo-zen-mod"
