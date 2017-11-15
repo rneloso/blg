@@ -82,18 +82,17 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: .5rem;
-    float: left;
+    text-align: center;
     vertical-align: middle;
 }
 .site-title-logo {
-    padding-left: .5rem;
     height: 4.5rem;
 }
 .menu-link-list {
     list-style-type: none;
     margin: 0;
     padding: .5rem;
-    float: right;
+    text-align: center;
 }
 .menu-link-list li {
     margin: 0;
@@ -109,6 +108,7 @@ footer {
 }
 .entry-meta {
     display: block;
+    text-align: center;
     padding: .3rem 0;
     font-size: 1.5rem;
     font-weight: 300;
@@ -125,7 +125,8 @@ footer {
     content: ""
 }
 .share-button {
-    padding: .3rem 0;
+    text-align: center;
+    padding: .4rem 0;
 }
 /* ENTRY LIST */
 .entry-list-container {
@@ -151,16 +152,17 @@ footer {
 }
 
 .entry-list-item a {
-    display: inline-block;
+    /*display: inline-block;*/
     text-decoration: none;
 }
 .entry-list-item .name {
     margin: 0;
     font-size: 2rem;
     font-weight: 400;
-    border-bottom: 1px solid #3FB8AF;
+    /*border-bottom: 1px solid #3FB8AF;*/
     padding-bottom: 1px;
-    display: inline-block;
+    text-align: center;
+    /*display: inline-block;*/
 }
 .entry-list-item a {
     color: #444;
@@ -169,6 +171,7 @@ footer {
 .entry-list-item .meta {
     margin: 2px 0 0;
     color: #333;
+    text-align: center;
 }
 .entry-list-item .meta .meta-date {
     color: #888;
@@ -188,10 +191,12 @@ footer {
     border-bottom: 1px solid #e3e3e3;
 }
 .post-container .entry-title {
+    text-align: center;
+    font-size:2.3rem;
     margin-top: 12px;
-    border-bottom: 1px solid #3FB8AF;
+    /*border-bottom: 1px solid #3FB8AF;*/
     padding-bottom: 1px;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 .post-container h2 {
     padding-bottom: 5px;
