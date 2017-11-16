@@ -144,6 +144,7 @@ footer {
 }
 .entry-list-container .entry-list {
     margin: 0;
+    padding: 0;
     list-style: none;
 }
 .entry-list-item {
@@ -192,7 +193,7 @@ footer {
 }
 .post-container .entry-title {
     text-align: center;
-    font-size:2.3rem;
+    font-size:2rem;
     margin-top: 12px;
     /*border-bottom: 1px solid #3FB8AF;*/
     padding-bottom: 1px;
