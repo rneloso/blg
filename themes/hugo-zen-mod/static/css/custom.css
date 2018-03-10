@@ -119,10 +119,13 @@ footer {
     text-decoration: none;
 }
 .entry-meta .tag a:after {
-    content: ","
+    content: ",";
 }
 .entry-meta .tag a:last-child:after {
-    content: ""
+    content: "";
+}
+.meta-read-more {
+    text-align: center;
 }
 .share-button {
     text-align: center;
