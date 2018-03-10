@@ -87,6 +87,7 @@ footer {
 }
 .site-title-logo {
     height: 4.5rem;
+    margin-right:.3rem;
 }
 .menu-link-list {
     list-style-type: none;
