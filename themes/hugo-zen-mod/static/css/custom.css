@@ -82,7 +82,7 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: .5rem;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
 }
 .site-title-logo {
@@ -109,9 +109,9 @@ footer {
 }
 .entry-meta {
     display: block;
-    text-align: center;
+    text-align: left;
     padding: .3rem 0;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 300;
     color: #888;
 }
@@ -129,8 +129,8 @@ footer {
     text-align: center;
 }
 .share-button {
-    text-align: center;
-    padding: .4rem 0;
+    text-align: left;
+    padding: .45rem 0;
 }
 /* ENTRY LIST */
 .entry-list-container {
@@ -196,7 +196,7 @@ footer {
     border-bottom: 1px solid #e3e3e3;
 }
 .post-container .entry-title {
-    text-align: center;
+    text-align: left;
     font-size:2rem;
     margin-top: 12px;
     /*border-bottom: 1px solid #3FB8AF;*/
