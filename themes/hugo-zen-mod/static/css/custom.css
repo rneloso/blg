@@ -126,7 +126,7 @@ footer {
     content: "";
 }
 .meta-read-more {
-    text-align: center;
+    text-align: left;
 }
 .share-button {
     text-align: left;
@@ -166,7 +166,7 @@ footer {
     font-weight: 400;
     /*border-bottom: 1px solid #3FB8AF;*/
     padding-bottom: 1px;
-    text-align: center;
+    text-align: left;
     /*display: inline-block;*/
 }
 .entry-list-item a {
@@ -176,19 +176,18 @@ footer {
 .entry-list-item .meta {
     margin: 2px 0 0;
     color: #333;
-    text-align: center;
+    text-align: left;
 }
 .entry-list-item .meta .meta-date {
     color: #888;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
 }
 .entry-list-item span:after {
     margin: 0 4px; content: '\2219';
 }
 .meta-date {
     margin: 2px 0;
-    font-size: 15px;
 }
 /* SINGLE POST */
 .post-container {
