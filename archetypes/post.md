@@ -1,6 +1,0 @@
----
-title: ""
-slug: ""
-date: ""
-tags: ""
----
