@@ -2,5 +2,5 @@
 date: {{ .Date }}
 slug: ""
 title: ""
-tags: ["", "", ""]
+tags: [""]
 ---
